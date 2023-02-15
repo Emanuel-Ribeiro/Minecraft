@@ -16,7 +16,7 @@ services:
       ENFORCE_WHITELIST: "FALSE"
     tty: true
     stdin_open: true
-    restart: unless_stopped
+    restart: unless-stopped
 volumes:
   minecraftdata:
     external: true
